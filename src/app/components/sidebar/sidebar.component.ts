@@ -22,6 +22,8 @@ export class SidebarComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+    console.log("Sidebar OK!");
+
     this.randomSeed = Array.from({length: 20}, () => Math.floor(Math.random() * 14578976));
     this.subs.push(this.afs.collection('rooms').snapshotChanges()
       .pipe(

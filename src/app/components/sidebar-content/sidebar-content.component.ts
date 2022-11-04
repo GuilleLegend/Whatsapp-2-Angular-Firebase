@@ -20,6 +20,8 @@ export class SidebarContentComponent implements OnInit {
   constructor(private afs: AngularFirestore) { }
 
   ngOnInit(): void {
+    
+    console.log("Sidebar.Content OK!");
     this.subs = this.afs.collection('rooms').doc(this.roomData.id)
       .collection('message', ref => ref.orderBy('time', 'desc'))
       .valueChanges()

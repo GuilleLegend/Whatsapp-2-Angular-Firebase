@@ -24,6 +24,8 @@ export class ChatAreaComponent implements OnInit {
               private afs: AngularFirestore) { }
 
   ngOnInit(): void {
+    console.log("Chat Area OK!");
+
     this.subs = this.commonService.pathParam.subscribe(value => this.paramValue = value)
   }
 

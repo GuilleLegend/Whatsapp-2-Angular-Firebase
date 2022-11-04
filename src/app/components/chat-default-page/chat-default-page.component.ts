@@ -10,6 +10,8 @@ export class ChatDefaultPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("Default Chat Room OK!");
+
   }
 
 }

@@ -11,6 +11,8 @@ export class MainContainerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("Main OK!");
+
   }
 
     seedData(ev: string) {

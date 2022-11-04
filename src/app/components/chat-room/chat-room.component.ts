@@ -26,6 +26,8 @@ export class ChatRoomComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+    console.log("Chat Room OK!");
+
    this.subs.push(this.route.paramMap
       .pipe(
         map(paramMap => paramMap.get('id'))
