@@ -1,19 +1,12 @@
-# Whatsapp-Web Clone
-
-A Whatsapp-web Clone that you can sign in with your Google Account.
-
-Click demo to try it by yourself!
-
+## About
+WhatsappWeb Clone with angular and firebase
 
 ## Topics
 
 - Angular
 - Angular Material
-- Flexbox
 - Firebase realtime database
 - Firebase Google Authentication (Full Login)
-- Deploy the App LIVE on Vercel
-
 
 ## npm start
 
