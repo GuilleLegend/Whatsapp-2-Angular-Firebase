@@ -1,5 +1,5 @@
 ## About
-WhatsappWeb Clone with angular and firebase
+Whatsapp Web Clone with angular and firebase
 
 ## Topics
 
