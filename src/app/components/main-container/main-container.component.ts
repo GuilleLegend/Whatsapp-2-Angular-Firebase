@@ -12,10 +12,11 @@ export class MainContainerComponent implements OnInit {
 
   ngOnInit(): void {
     console.log("Main OK!");
-
+    console.log(this.seedValue);
   }
 
     seedData(ev: string) {
     this.seedValue = ev;
+    console.log(this.seedValue);
     }
 }
