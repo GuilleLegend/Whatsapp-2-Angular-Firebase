@@ -4,12 +4,14 @@
 
 export const environment = {
   firebaseConfig: {
-    apiKey: "AIzaSyCe3Maxo6At3Lghfz6VQKiCEglDfeti7vo",
-    authDomain: "whatsapp-web-clone-9c01f.firebaseapp.com",
-    projectId: "whatsapp-web-clone-9c01f",
-    storageBucket: "whatsapp-web-clone-9c01f.appspot.com",
-    messagingSenderId: "481955611450",
-    appId: "1:481955611450:web:75921d33a3e2ef4d7f8603"
+    apiKey: "AIzaSyAYJrvdfR6nfQv9J4RzVzyY6lcMbkM_MwE",
+    authDomain: "hermes-94d32.firebaseapp.com",
+    projectId: "hermes-94d32",
+    storageBucket: "hermes-94d32.appspot.com",
+    messagingSenderId: "1048782817993",
+    appId: "1:1048782817993:web:d926372b05b9f52cfedb18",
+    measurementId: "G-BFJD2XR9DT",
+    databaseURL: "https://hermes-94d32-default-rtdb.europe-west1.firebasedatabase.app/"
   },
   production: false
 };
