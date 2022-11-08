@@ -7,7 +7,6 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
-
 @Component({
   selector: 'app-chat-area',
   templateUrl: './chat-area.component.html',
@@ -25,7 +24,6 @@ export class ChatAreaComponent implements OnInit {
 
   ngOnInit(): void {
     console.log("Chat Area OK!");
-
     this.subs = this.commonService.pathParam.subscribe(value => this.paramValue = value)
   }
 
