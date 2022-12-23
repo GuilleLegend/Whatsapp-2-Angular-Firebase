@@ -1,12 +1,11 @@
-## About
-Whatsapp Web Clone with angular and firebase
+## Whatsapp Web Clone with angular and firebase
 
-## Topics
+## Using
 
 - Angular
 - Angular Material
-- Firebase realtime database
-- Firebase Google Authentication (Full Login)
+- Firebase Firestore
+- Firebase Google Authentication 
 
 ## npm start
 
